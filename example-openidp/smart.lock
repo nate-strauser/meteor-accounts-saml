@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "accounts-saml": {
+        "path": ".."
+      }
+    },
+    "packages": {
+      "accounts-saml": {
+        "path": ".."
+      }
+    }
+  }
+}
