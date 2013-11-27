@@ -57,3 +57,6 @@ AssertionConsumerService endpoint = http://accounts-saml-example.meteor.com/_sam
 
 ## Credits
 heavily derived from https://github.com/bergie/passport-saml
+
+## Donations
+BTC 14grxbGo7pNMNXubzXj9MDhM5fch21rYR5
