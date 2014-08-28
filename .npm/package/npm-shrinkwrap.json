@@ -1,27 +1,5 @@
 {
   "dependencies": {
-    "xml2js": {
-      "version": "0.2.0",
-      "dependencies": {
-        "sax": {
-          "version": "0.5.5"
-        }
-      }
-    },
-    "xml-crypto": {
-      "version": "0.0.20",
-      "dependencies": {
-        "xmldom": {
-          "version": "0.1.16"
-        },
-        "xpath.js": {
-          "version": "0.0.3"
-        }
-      }
-    },
-    "xmldom": {
-      "version": "0.1.6"
-    },
     "connect": {
       "version": "2.7.10",
       "dependencies": {
@@ -64,6 +42,28 @@
           "version": "0.7.4"
         }
       }
+    },
+    "xml-crypto": {
+      "version": "0.0.20",
+      "dependencies": {
+        "xmldom": {
+          "version": "0.1.16"
+        },
+        "xpath.js": {
+          "version": "0.0.3"
+        }
+      }
+    },
+    "xml2js": {
+      "version": "0.2.0",
+      "dependencies": {
+        "sax": {
+          "version": "0.5.5"
+        }
+      }
+    },
+    "xmldom": {
+      "version": "0.1.6"
     }
   }
 }

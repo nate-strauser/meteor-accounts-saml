@@ -1,8 +1,12 @@
 Package.describe({
-    summary: "saml login provider for meteor"
+    name:"natestrauser:accounts-saml",
+    summary: "saml login provider for meteor",
+  version: "0.1.1",
+  git: "https://github.com/nate-strauser/meteor-accounts-saml.git"
 });
 
 Package.on_use(function (api) {
+  api.versionsFrom("METEOR@0.9.0");
     api.use(['routepolicy','webapp','underscore', 'service-configuration'], 'server');
     api.use(['http','accounts-base'], ['client', 'server']);
 
